@@ -84,7 +84,7 @@ void** crearMatriz(size_t filas, size_t columnas, size_t tamElem){
         }
 
     }
-
+    return mat;
 }
 
 void destruirMatriz(void**mat, size_t filas){
